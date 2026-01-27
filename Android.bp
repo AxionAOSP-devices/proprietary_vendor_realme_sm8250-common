@@ -19342,7 +19342,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libc",
                 "libm",
-                "libstdc++",
+                "libstdc++_vendor",
                 "libdl",
             ],
         },
@@ -20639,7 +20639,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libdl",
-                "libstdc++",
+                "libstdc++_vendor",
                 "libcdsprpc",
                 "libc++_shared",
                 "libm",
